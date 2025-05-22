@@ -65,7 +65,7 @@ app.use('/api/recursos', recursosRoutes);
 
 // Ruta de inicio
 app.get('/', (req, res) => {
-  res.send('API JWT - PostgreSQL funcionando en Railway!');
+  res.send('API JWT - PostgreSQL funcionando en Render!');
 });
 
 // Iniciar servidor
